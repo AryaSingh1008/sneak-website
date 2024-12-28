@@ -1,5 +1,6 @@
 resource "aws_s3_bucket" "aryabucket" {
   bucket = "aryabucketoinfy"
+
 }
 
 resource "aws_s3_bucket_ownership_controls" "example" {
